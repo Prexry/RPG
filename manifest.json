@@ -1,0 +1,17 @@
+{
+    "name": "Random Password Generator",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Generates a random password up to 50 characters.",
+    "icons": {
+      "16": "icons/RPG.png",
+      "32": "icons/RPG.png",
+      "48": "icons/RPG.png",
+      "128": "icons/RPG.png"
+    },
+    "permissions": ["scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

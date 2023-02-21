@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://github.com/FFierce/RPG" target="_blank">
+        <img src="icons/github.png" alt="GitHub icon" class="github-icon">
+      </a>
+      <h1>Password Generator</h1>
+      <div class="input-container">
+        <label for="length-slider">Password Length:</label>
+        <input type="range" min="8" max="50" value="16" id="length-slider">
+        <input type="text" id="length-box" value="16">
+      </div>
+      <div class="input-container">
+        <button id="generate-btn">Generate</button>
+        <input type="text" id="password-box" readonly>
+      </div>
+      <div class="input-container">
+        <label id="password-length"></label>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
