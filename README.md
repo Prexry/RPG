@@ -14,3 +14,5 @@ To cuztomize the image, simply change the ` "icons": {
       "48": "icons/RPG.png",
       "128": "icons/RPG.png"
     },` section.
+
+^ This is in `manifest.json`
