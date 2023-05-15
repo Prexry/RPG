@@ -45,12 +45,12 @@ generateButton.addEventListener("click", function() {
 
 const container = document.querySelector(".container");
 
-document.addEventListener("click", function(event) {
+/**document.addEventListener("click", function(event) {
   if (!container.contains(event.target)) {
     container.style.opacity = 0;
     container.style.pointerEvents = "none";
   }
-});
+});**/
 
 
 updatePasswordLength();
